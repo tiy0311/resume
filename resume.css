@@ -1,0 +1,134 @@
+body{
+	background-color:#B6B6B4;
+	margin: 0;
+}
+a:link,a:hover,a:visited,a:active{
+	color:white;
+	text-decoration: none;
+}
+.profile{
+	width: 150px;
+	margin-left: 250px;
+}
+.contact{
+	width: 160px;
+	margin-left: 5px;
+}
+.profile,.contact{
+	height: 38px;
+	margin-top: 20px;
+	border-radius: 30px 10px / 10px 30px;
+	display:inline-block;
+	background: gray;
+}
+.profile h3,.contact h3{
+	text-align: center;
+	font-family: 'Gafata', cursive;
+	color:white;
+	margin-top: 5px;
+}
+
+.container{
+	background-image: url(./background.png);
+	width: 730px;
+	height: 760px;
+	padding-top: 10px;
+	margin-top: -5px;
+	margin-left: 220px;
+	border-radius: 30px 10px / 10px 30px;
+	border: 5px solid gray;
+}
+
+.title{
+	width: 500px;
+	height: 125px;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.title h2{
+	margin: 5px;
+	font-size: 59px;
+ 	font-family: 'Aclonica', cursive,Georgia,Serif;
+ 	color: #463E3F;
+ 	text-shadow: 3px 3px 3px #848482;
+}
+.title,.photo{
+	display:inline-block;
+}
+.photo{
+	margin-top: -15px;
+	margin-left: 340px;
+	float: left;
+}
+#my_photo{
+	width: 240px;
+	height: 320px;
+ 	padding: 0.7em;
+ 	background-color: #F7E7CE;
+ 	border-radius: 50px 280px / 60px 50px;
+}
+
+/* caption format */
+.emilie,.edu,.skl,.favquo{
+	color:white;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	padding: 0.5em;
+	font-size: 1.3em;
+	margin-bottom: 0.4em;
+}
+/* caption color & width */
+.emilie{
+	background-color: #FF7F50; /* coral */
+	width: 100px;
+}
+.edu{
+	background-color: #81D8D0; /* tiffany blue */
+	width: 100px;
+}
+.skl{
+	background-color: #79BAEC; /* denim blue */
+	width:62px;
+}
+.favquo{
+	background-color: #F778A1; /* carnation pink */
+	width: 150px;
+}
+
+.about_me,.education,.skills{
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 3em;
+	margin-top: 1.5em;
+	margin-bottom: 2.3em;
+	padding-bottom: 5px;
+}
+
+/* left border color */
+.about_me{
+	border-left: 2px solid #FF7F50; /* coral */
+	width: 325px;
+}
+.education{
+	border-left: 2px solid #81D8D0; /* tiffany blue */
+}
+.skills{
+	border-left: 2px solid #79BAEC; /* denim blue */
+}
+
+
+.about_me h5{
+	margin-left: 35px;
+	line-height: 20px; 
+}
+
+.education h5{
+	margin-left: 35px;
+}
+.school{
+	margin-left: 50px;
+}
+
+.skill_list{
+	margin-top: 15px;
+	margin-left: 30px;
+}
